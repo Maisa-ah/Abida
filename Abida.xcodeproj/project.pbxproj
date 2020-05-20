@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		252D13A824660D72009371A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252D13A724660D72009371A6 /* AppDelegate.swift */; };
+		252D13AA24660D72009371A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252D13A924660D72009371A6 /* SceneDelegate.swift */; };
+		252D13AC24660D72009371A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252D13AB24660D72009371A6 /* ViewController.swift */; };
+		252D13AF24660D72009371A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 252D13AD24660D72009371A6 /* Main.storyboard */; };
+		252D13B124660D74009371A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 252D13B024660D74009371A6 /* Assets.xcassets */; };
+		252D13B424660D74009371A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 252D13B224660D74009371A6 /* LaunchScreen.storyboard */; };
+		25310618246CB44F004246D9 /* RemindersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25310617246CB44F004246D9 /* RemindersTableViewController.swift */; };
+		25524C152469A8AC0091F8E7 /* colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25524C142469A8AC0091F8E7 /* colors.swift */; };
+		25524C172469D3C30091F8E7 /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25524C162469D3C30091F8E7 /* Arrays.swift */; };
+		25524C192469E3CD0091F8E7 /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25524C182469E3CD0091F8E7 /* ReminderViewController.swift */; };
+		25D9FF772466F78400956710 /* Prayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D9FF762466F78400956710 /* Prayer.swift */; };
+		25D9FF7B2467680300956710 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D9FF7A2467680300956710 /* Request.swift */; };
+		25E527222472E10800424DBC /* AbidaData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 25E527202472E10800424DBC /* AbidaData.xcdatamodeld */; };
+		25E527512472F2AC00424DBC /* ReminderItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E5274F2472F2AC00424DBC /* ReminderItem+CoreDataClass.swift */; };
+		25E527522472F2AC00424DBC /* ReminderItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E527502472F2AC00424DBC /* ReminderItem+CoreDataProperties.swift */; };
+		25E527542472F9F100424DBC /* persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E527532472F9F100424DBC /* persistence.swift */; };
+		25E527592473149500424DBC /* bell.wav in Resources */ = {isa = PBXBuildFile; fileRef = 25E527582473149500424DBC /* bell.wav */; };
+		25F5552C2470773C004CFE85 /* reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F5552B2470773C004CFE85 /* reminder.swift */; };
+		25FAA66424660E16006192DC /* NamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FAA66324660E16006192DC /* NamesViewController.swift */; };
+		25FAA66824660F72006192DC /* PrayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FAA66724660F72006192DC /* PrayerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		252D13A424660D72009371A6 /* Abida.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Abida.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		252D13A724660D72009371A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		252D13A924660D72009371A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		252D13AB24660D72009371A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		252D13AE24660D72009371A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		252D13B024660D74009371A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		252D13B324660D74009371A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		252D13B524660D74009371A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25310617246CB44F004246D9 /* RemindersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersTableViewController.swift; sourceTree = "<group>"; };
+		25524C142469A8AC0091F8E7 /* colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colors.swift; sourceTree = "<group>"; };
+		25524C162469D3C30091F8E7 /* Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrays.swift; sourceTree = "<group>"; };
+		25524C182469E3CD0091F8E7 /* ReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
+		25D9FF762466F78400956710 /* Prayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prayer.swift; sourceTree = "<group>"; };
+		25D9FF7A2467680300956710 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		25E527212472E10800424DBC /* AbidaData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AbidaData.xcdatamodel; sourceTree = "<group>"; };
+		25E5274F2472F2AC00424DBC /* ReminderItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		25E527502472F2AC00424DBC /* ReminderItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		25E527532472F9F100424DBC /* persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = persistence.swift; sourceTree = "<group>"; };
+		25E527582473149500424DBC /* bell.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bell.wav; sourceTree = "<group>"; };
+		25F5552B2470773C004CFE85 /* reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reminder.swift; sourceTree = "<group>"; };
+		25FAA66324660E16006192DC /* NamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamesViewController.swift; sourceTree = "<group>"; };
+		25FAA66724660F72006192DC /* PrayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		252D13A124660D72009371A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		252D139B24660D72009371A6 = {
+			isa = PBXGroup;
+			children = (
+				252D13A624660D72009371A6 /* Abida */,
+				252D13A524660D72009371A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		252D13A524660D72009371A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				252D13A424660D72009371A6 /* Abida.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		252D13A624660D72009371A6 /* Abida */ = {
+			isa = PBXGroup;
+			children = (
+				252D13A724660D72009371A6 /* AppDelegate.swift */,
+				252D13A924660D72009371A6 /* SceneDelegate.swift */,
+				252D13AB24660D72009371A6 /* ViewController.swift */,
+				25D9FF762466F78400956710 /* Prayer.swift */,
+				25D9FF7A2467680300956710 /* Request.swift */,
+				25FAA66724660F72006192DC /* PrayerViewController.swift */,
+				25524C162469D3C30091F8E7 /* Arrays.swift */,
+				25FAA66324660E16006192DC /* NamesViewController.swift */,
+				25F5552B2470773C004CFE85 /* reminder.swift */,
+				25524C182469E3CD0091F8E7 /* ReminderViewController.swift */,
+				25310617246CB44F004246D9 /* RemindersTableViewController.swift */,
+				25524C142469A8AC0091F8E7 /* colors.swift */,
+				252D13AD24660D72009371A6 /* Main.storyboard */,
+				252D13B224660D74009371A6 /* LaunchScreen.storyboard */,
+				252D13B024660D74009371A6 /* Assets.xcassets */,
+				252D13B524660D74009371A6 /* Info.plist */,
+				25E527552473144B00424DBC /* sounds */,
+				25E5272B2472EA1D00424DBC /* Data */,
+			);
+			path = Abida;
+			sourceTree = "<group>";
+		};
+		25E5272B2472EA1D00424DBC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				25E527202472E10800424DBC /* AbidaData.xcdatamodeld */,
+				25E527532472F9F100424DBC /* persistence.swift */,
+				25E5274F2472F2AC00424DBC /* ReminderItem+CoreDataClass.swift */,
+				25E527502472F2AC00424DBC /* ReminderItem+CoreDataProperties.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		25E527552473144B00424DBC /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				25E527582473149500424DBC /* bell.wav */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		252D13A324660D72009371A6 /* Abida */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 252D13B824660D74009371A6 /* Build configuration list for PBXNativeTarget "Abida" */;
+			buildPhases = (
+				252D13A024660D72009371A6 /* Sources */,
+				252D13A124660D72009371A6 /* Frameworks */,
+				252D13A224660D72009371A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Abida;
+			productName = Abida;
+			productReference = 252D13A424660D72009371A6 /* Abida.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		252D139C24660D72009371A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Maisa Ahmad";
+				TargetAttributes = {
+					252D13A324660D72009371A6 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 252D139F24660D72009371A6 /* Build configuration list for PBXProject "Abida" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 252D139B24660D72009371A6;
+			productRefGroup = 252D13A524660D72009371A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				252D13A324660D72009371A6 /* Abida */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		252D13A224660D72009371A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252D13B424660D74009371A6 /* LaunchScreen.storyboard in Resources */,
+				252D13B124660D74009371A6 /* Assets.xcassets in Resources */,
+				252D13AF24660D72009371A6 /* Main.storyboard in Resources */,
+				25E527592473149500424DBC /* bell.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		252D13A024660D72009371A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E527522472F2AC00424DBC /* ReminderItem+CoreDataProperties.swift in Sources */,
+				25D9FF772466F78400956710 /* Prayer.swift in Sources */,
+				25D9FF7B2467680300956710 /* Request.swift in Sources */,
+				25524C192469E3CD0091F8E7 /* ReminderViewController.swift in Sources */,
+				252D13AC24660D72009371A6 /* ViewController.swift in Sources */,
+				25FAA66824660F72006192DC /* PrayerViewController.swift in Sources */,
+				252D13A824660D72009371A6 /* AppDelegate.swift in Sources */,
+				252D13AA24660D72009371A6 /* SceneDelegate.swift in Sources */,
+				25E527222472E10800424DBC /* AbidaData.xcdatamodeld in Sources */,
+				25E527542472F9F100424DBC /* persistence.swift in Sources */,
+				25310618246CB44F004246D9 /* RemindersTableViewController.swift in Sources */,
+				25E527512472F2AC00424DBC /* ReminderItem+CoreDataClass.swift in Sources */,
+				25524C152469A8AC0091F8E7 /* colors.swift in Sources */,
+				25FAA66424660E16006192DC /* NamesViewController.swift in Sources */,
+				25524C172469D3C30091F8E7 /* Arrays.swift in Sources */,
+				25F5552C2470773C004CFE85 /* reminder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		252D13AD24660D72009371A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				252D13AE24660D72009371A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		252D13B224660D74009371A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				252D13B324660D74009371A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		252D13B624660D74009371A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		252D13B724660D74009371A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		252D13B924660D74009371A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Abida/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Maisa.Abida;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		252D13BA24660D74009371A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Abida/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Maisa.Abida;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		252D139F24660D72009371A6 /* Build configuration list for PBXProject "Abida" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252D13B624660D74009371A6 /* Debug */,
+				252D13B724660D74009371A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		252D13B824660D74009371A6 /* Build configuration list for PBXNativeTarget "Abida" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252D13B924660D74009371A6 /* Debug */,
+				252D13BA24660D74009371A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		25E527202472E10800424DBC /* AbidaData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				25E527212472E10800424DBC /* AbidaData.xcdatamodel */,
+			);
+			currentVersion = 25E527212472E10800424DBC /* AbidaData.xcdatamodel */;
+			path = AbidaData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 252D139C24660D72009371A6 /* Project object */;
+}
